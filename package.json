@@ -6,7 +6,13 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .next out node_modules/.cache",
+    "reinstall": "rm -rf node_modules package-lock.json && npm install",
+    "reset": "git checkout main && git pull origin main",
+    "audit": "npm audit --audit-level moderate",
+    "analyze": "cross-env ANALYZE=true npm run build"
   },
   "dependencies": {
     "next": "15.4.5",

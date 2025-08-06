@@ -274,7 +274,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                   />
                   <span>
                     <a href="#" className="text-black hover:underline">Kullanım Koşulları</a> ve{" "}
-                    <a href="#" className="text-black hover:underline">Gizlilik Politikası</a>'nı okudum, kabul ediyorum.
+                    <a href="#" className="text-black hover:underline">Gizlilik Politikası</a>&apos;nı okudum, kabul ediyorum.
                   </span>
                 </label>
 
@@ -288,7 +288,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                     required
                   />
                   <span>
-                    Kişisel verilerimin işlenmesine dair <a href="#" className="text-black hover:underline">Aydınlatma Metni</a>'ni okudum, onaylıyorum.
+                    Kişisel verilerimin işlenmesine dair <a href="#" className="text-black hover:underline">Aydınlatma Metni</a>&apos;ni okudum, onaylıyorum.
                   </span>
                 </label>
 
